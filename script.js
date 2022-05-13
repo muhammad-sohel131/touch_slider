@@ -14,7 +14,7 @@ const touchSlider = () => {
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: slides,
         spaceBetween: 20,
-        // loop: true,
+        loop: true,
         pagination: {
           el: '.swiper-pagination',
           clickable: true,
